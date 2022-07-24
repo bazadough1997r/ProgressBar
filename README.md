@@ -1,5 +1,5 @@
 # ProgressBar
-try it out from here https://joeys-food.netlify.app/
+try it out from here https://greenie-bar.netlify.app/
 
 
 #### How to run this app locally 
