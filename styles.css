@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 1.6rem;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* Progress bar styles */
+
+.bar-container {
+  width: 80vw;
+  height: 5vh;
+  margin: 5% 0px;
+  background-color: #f0f0f0;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+}
+
+.bar {
+  background-color: #9bf11b;
+  height: 100%;
+  width: 0%;
+  border-radius: inherit;
+}
+
+button {
+  width: fit-content;
+  height: 5vh;
+  padding: 0px 5%;
+  background-color: #9bf11b;
+  border: #9bf11b solid 1px;
+  border-radius: 50px;
+  color: #fff;
+  font-weight: bolder;
+  cursor: pointer;
+}
